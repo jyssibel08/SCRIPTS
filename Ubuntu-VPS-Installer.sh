@@ -575,3 +575,9 @@ echo -e " Success Installation"
  
  # Clearing all logs from installation
  rm -rf /root/.bash_history && history -c && echo '' > /var/log/syslog
+
+else
+clear
+     echo -e "${RedBG}Wrong Password! Please watch my tutorial for this scipt's password and subscribe to my Youtube Channel. ${Font}"
+     echo -e "${Red}( https://www.youtube.com/channel/UC7LIFRhsjIi9tXc2MWUS6nw )${font}"
+fi
